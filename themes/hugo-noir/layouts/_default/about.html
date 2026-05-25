@@ -94,11 +94,7 @@ site.Params }}
     }
 
     html.dark .content-card {
-        background: linear-gradient(
-            to bottom right,
-            rgba(18, 18, 18, 0.92),
-            rgba(30, 41, 59, 0.52)
-        );
+        background: transparent;
     }
 
     .content-card:hover {
@@ -129,6 +125,11 @@ site.Params }}
         font-size: 1.55rem;
         font-weight: 700;
     }
+
+    .prose :first-child {
+        margin-top: 0;
+    }
+
     html.dark .prose h2 {
         color: #f3f4f6; /* text-primary-dark */
     }

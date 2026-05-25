@@ -14,7 +14,9 @@ I work across the full engineering cycle: system design, implementation, testing
 I currently work on:
 
 - **Web of Drones and distributed cyber-physical systems**: coordination strategies, interoperability, and mission-level orchestration.
+
 - **Edge AI + IoT pipelines**: from sensing to near-real-time processing and control decisions.
+
 - **LLM-enhanced reasoning for autonomous systems**: integrating language models and agent workflows to improve planning and execution in dynamic environments.
 
 My recent papers reflect this direction, especially on multi-agent LLM reasoning for drones and IoT-enabled cyber-physical platforms.
