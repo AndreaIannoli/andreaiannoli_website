@@ -1,0 +1,39 @@
+[[projects]]
+title = 'ALIANTE'
+description = 'Project repository available on GitHub.'
+tech = 'Software Engineering, Systems Development'
+image = '/images/projects/aliante-logo.webp'
+image_fit = 'contain'
+link = 'https://github.com/ALIANTE-IoT/ALIANTE'
+
+[[projects]]
+title = 'TOONIFY'
+description = 'Universal converter for JSON, YAML, XML, and CSV into the TOON format, written in Rust.'
+tech = 'Rust, CLI, Data Conversion, JSON/YAML/XML/CSV'
+image = '/images/projects/toonify-logo.webp'
+link = 'https://github.com/AndreaIannoli/TOONIFY'
+
+[[projects]]
+title = 'GWIOT-7941w'
+description = 'Library for the embedded module GWIOT-7941w.'
+tech = 'C++, Embedded Systems, IoT, Firmware Library'
+image = '/images/projects/gwiot-module.png'
+link = 'https://github.com/AndreaIannoli/GWIOT-7941w'
+highlight = true
+
+[[projects]]
+title = 'willy'
+description = 'Open-source ESP32 device for reading, writing, and storing NFC/RFID tags at 13.56 MHz and 125 kHz.'
+tech = 'ESP32, C++, NFC/RFID, Embedded Hardware'
+image = '/images/projects/willy-logo.png'
+image_fit = 'contain'
+link = 'https://github.com/AndreaIannoli/willy'
+
+[[projects]]
+title = 'JAM: Just Analyze Mobility'
+description = 'Smart parking application built around MQTT and LA-MQTT, with protocol updates for multi-broker scalability. This project was the core of my Bachelor thesis.'
+tech = 'IoT, MQTT, LA-MQTT, Distributed Systems'
+image = '/images/jammockup2.10d709406763ea189986.png'
+image_fit = 'contain'
+link = 'https://github.com/AndreaIannoli/JAM'
+highlight = true

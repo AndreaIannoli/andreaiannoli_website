@@ -1,0 +1,23 @@
+[author]
+name = 'Andrea Iannoli'
+location = 'Bologna, Italy'
+description = 'Research Fellow in IoT working on mobile CrowdSensing, Edge Computing, and distributed systems for cyber-physical environments.'
+profile_image = '/images/andrea-iannoli.b8a700378b3966b8600e.jpg'
+email = 'andrea.iannoli01@gmail.com'
+academic_email = 'andrea.iannoli@unibo.it'
+github = 'https://github.com/AndreaIannoli'
+github_username = 'AndreaIannoli'
+linkedin = 'https://www.linkedin.com/in/andrea-iannoli'
+linkedin_username = 'andrea-iannoli'
+orcid = 'https://orcid.org/0009-0009-1040-2138'
+google_scholar = 'https://scholar.google.com/citations?user=NW7HUA0AAAAJ&hl=en'
+
+[[honors]]
+institution = 'University of Bologna'
+title = 'MSc in Computer Science'
+date = '2023 - 2026'
+
+[[honors]]
+institution = 'University of Bologna'
+title = 'BSc in Computer Science'
+date = '2020 - 2023'

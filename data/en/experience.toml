@@ -1,0 +1,58 @@
+[[experience]]
+company = 'IoT Prism Lab'
+company_link = 'https://iotprismlab.com/'
+role = 'Research Fellow'
+period = 'October 2024 - Present'
+country = 'Bologna, Italy'
+responsibilities = [
+  'Research and development on IoT systems for cyber-physical environments',
+  'Design of sensing, orchestration, and interoperability solutions with Edge AI integration',
+  'Applied research on distributed and autonomous systems, including Web-of-Drones scenarios'
+]
+technologies = ['IoT', 'Cyber-Physical Systems', 'Edge AI', 'Distributed Systems', 'Web of Drones']
+
+[[experience]]
+company = 'University of Bologna'
+role = 'MSc in Computer Science'
+period = 'September 2023 - March 2026'
+country = 'Bologna, Italy'
+responsibilities = [
+  'Advanced studies in software engineering and computer science',
+  'Research-oriented projects in distributed and IoT systems'
+]
+technologies = ['Distributed Systems', 'Software Engineering', 'IoT']
+
+[[experience]]
+company = 'Eutech Engineers'
+company_link= 'https://eutechengineers.com/'
+role = 'Software Developer Intern'
+period = 'September 2022 - December 2022'
+country = 'Dublin, Ireland'
+responsibilities = [
+  'Contributed to software development tasks in an international environment',
+  'Strengthened engineering practices through hands-on delivery work'
+]
+technologies = ['Software Development', 'Team Collaboration']
+
+[[experience]]
+company = 'JEBO'
+company_link = 'https://jebo.it/'
+role = 'Head of IT'
+period = 'May 2022 - June 2023'
+country = 'Bologna, Italy'
+responsibilities = [
+  'Led technical coordination for customer-facing projects',
+  'Managed delivery planning and team collaboration workflows'
+]
+technologies = ['Project Coordination', 'Customer Delivery']
+
+[[experience]]
+company = 'University of Bologna'
+role = 'BSc in Computer Science'
+period = 'September 2020 - December 2023'
+country = 'Bologna, Italy'
+responsibilities = [
+  'Built strong foundations in algorithms, software design, and databases',
+  'Completed multiple practical software projects during the degree'
+]
+technologies = ['Algorithms', 'Databases', 'Software Design']

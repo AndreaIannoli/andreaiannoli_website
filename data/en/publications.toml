@@ -1,0 +1,37 @@
+[[publications]]
+title = 'Say the Mission, Execute the Swarm: Agent-Enhanced LLM Reasoning in the Web-of-Drones'
+authors = [
+  'Andrea Iannoli',
+  'Lorenzo Gigli',
+  'Luca Sciullo',
+  'Angelo Trotta',
+  'Marco Di Felice'
+]
+topics = ['UAV Swarms', 'LLMs', 'Multi-Agent Systems', 'IoT']
+venue = 'IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM 2026)'
+year = 2026
+type = 'Conference paper'
+link = 'https://arxiv.org/abs/2605.03788'
+
+[[publications]]
+title = 'Traceability and Research in the Agricultural Chain of Medicinal and Aromatic Plants (MAPs): an IoT-Based Approach'
+authors = [
+  'Ivan Zyrianoff',
+  'Andrea Iannoli',
+  'Federico Montori',
+  'Luca Sciullo',
+  'Luciano Bononi',
+  'Alice Baldissara',
+  'Beatrice Brintazzoli',
+  "Enrico Dall'Olio",
+  'Mattia Alpi',
+  'Rocco Enrico Sferrazza',
+  'Giovanni Dinelli',
+  'Ilaria Marotti',
+  'Marco Di Felice'
+]
+topics = ['IoT', 'Traceability', 'Smart Agriculture', 'Supply Chain']
+venue = 'IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor 2025)'
+year = 2025
+type = 'Conference paper'
+link = 'https://ieeexplore.ieee.org/abstract/document/11512630'

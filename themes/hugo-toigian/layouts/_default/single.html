@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <h1>{{ .Title | emojify }}</h1>
+  <!-- Post meta -->
+  {{ if .Params.lastmod }}
+    <nobr class="mr-1 text-sm italic tabular-nums text-muted">Last update:&nbsp;</nobr>{{- partial "date" .Lastmod -}}
+  {{ else if not .Date.IsZero }}
+    {{- partial "date" .Date -}}{{ if and (not .Lastmod.IsZero) (ne .Date .Lastmod) }}<nobr class="text-sm text-muted">&#8674&nbsp;</nobr>{{- partial "date" .Lastmod -}}{{ end }}
+  {{ else if not .Lastmod.IsZero }}
+    <nobr class="mr-1 text-sm italic tabular-nums text-muted">Last update:&nbsp;</nobr>{{- partial "date" .Lastmod -}}
+  {{ end }}
+
+  {{- partial "tag" . -}}
+  {{- partial "toc.html" . -}}
+  <!-- Content -->
+  {{ if .Params.noHeadingNumbers }}
+    <style>
+      .content.no-heading-numbers h2::before,
+      .content.no-heading-numbers h3::before,
+      .content.no-heading-numbers h4::before,
+      .content.no-heading-numbers h5::before {
+        content: none !important;
+      }
+    </style>
+  {{ end }}
+  {{- partial "custom/content-before.html" . -}}
+  <div class="content {{ if .Params.noHeadingNumbers }}no-heading-numbers{{ end }}">{{ .Content | emojify }}</div>
+  {{- partial "custom/content-after.html" . -}}
+  <!-- Comments block -->
+  {{ if and .Content (default true (default .Site.Params.comments
+    .Params.comments))
+  }}
+    <div class="mt-16">{{- partial "comments" . -}}</div>
+  {{ end }}
+{{ end }}

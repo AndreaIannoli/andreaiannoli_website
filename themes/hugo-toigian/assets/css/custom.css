@@ -1,0 +1,75 @@
+/* You can add custom styles here. */
+
+figure.profile-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem 2rem;
+}
+
+.home-intro .profile-photo {
+  margin: 0;
+}
+
+.home-intro .profile-photo img {
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home-intro-text p {
+  margin-top: 0;
+}
+
+.home-intro-links {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .home-intro .profile-photo {
+    justify-self: center;
+  }
+}
+
+.content.no-heading-numbers h2::before,
+.content.no-heading-numbers h3::before,
+.content.no-heading-numbers h4::before,
+.content.no-heading-numbers h5::before {
+  content: none;
+}
+
+.content a.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0;
+  font-style: normal;
+}
+
+.content a.social-link::before,
+.content a.social-link::after {
+  content: none;
+}
+
+.social-link-icon {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+}
+
+.social-link-icon svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}

@@ -1,0 +1,21 @@
+row1 = [
+  { icon = 'devicon-python-plain', name = 'Python' },
+  { icon = 'devicon-java-plain', name = 'Java' },
+  { icon = 'devicon-javascript-plain', name = 'JavaScript' },
+  { icon = 'devicon-html5-plain', name = 'HTML5' },
+  { icon = 'devicon-css3-plain', name = 'CSS3' },
+  { icon = 'devicon-php-plain', name = 'PHP' },
+  { icon = 'devicon-r-plain', name = 'R' },
+  { icon = 'devicon-matlab-plain', name = 'MATLAB' }
+]
+
+row2 = [
+  { icon = 'devicon-mysql-plain', name = 'MySQL' },
+  { icon = 'devicon-mongodb-plain', name = 'MongoDB' },
+  { icon = 'devicon-docker-plain', name = 'Docker' },
+  { icon = 'devicon-git-plain', name = 'Git' },
+  { icon = 'devicon-linux-plain', name = 'Linux' },
+  { icon = 'devicon-react-original', name = 'React' },
+  { icon = 'devicon-tailwindcss-plain', name = 'TailwindCSS' },
+  { icon = 'devicon-hugo-plain', name = 'Hugo' }
+]

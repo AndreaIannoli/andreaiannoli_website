@@ -1,0 +1,13 @@
+{{- $name := lower (.Get "name") -}}
+{{- $url := .Get "url" -}}
+{{- $label := .Get "label" -}}
+{{- $iconName := cond (eq $name "email") "envelope" $name -}}
+{{- $iconPath := printf "static/icons/%s.svg" $iconName -}}
+{{- $isMail := hasPrefix $url "mailto:" -}}
+
+<a class="social-link" href="{{ $url | safeURL }}" {{ if not $isMail }}target="_blank" rel="noopener noreferrer"{{ end }}>
+  <span class="social-link-icon" aria-hidden="true">
+    {{- readFile $iconPath | safeHTML -}}
+  </span>
+  <span>{{ $label }}</span>
+</a>
