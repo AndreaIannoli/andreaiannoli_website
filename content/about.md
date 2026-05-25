@@ -20,5 +20,3 @@ I currently work on:
 - **LLM-enhanced reasoning for autonomous systems**: integrating language models and agent workflows to improve planning and execution in dynamic environments.
 
 My recent papers reflect this direction, especially on multi-agent LLM reasoning for drones and IoT-enabled cyber-physical platforms.
-
-You can find publications in the **Publications** page, with references to my ORCID and Google Scholar profiles.

@@ -66,7 +66,7 @@
 
     {{ with $experience }}
     <section>
-        <h2 class="text-4xl font-bold mb-5 max-w-3xl mx-auto">{{ T "experienceTitle" }}</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-5 max-w-3xl mx-auto">{{ T "experienceTitle" }}</h2>
         <div class="space-y-4 max-w-3xl mx-auto">
             {{ range $index, $exp := . }}
             <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-gray-700 before:rounded-full">
@@ -104,7 +104,7 @@
     {{ $service := cond (and $serviceData $serviceData.service) $serviceData.service site.Params.service }}
     {{ with $service }}
     <section class="mt-12 mb-14">
-        <h2 class="text-2xl md:text-3xl font-bold mb-4 max-w-3xl mx-auto">Academic Service</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 max-w-3xl mx-auto">Academic Service</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             {{ range . }}
             <div class="service-card rounded-lg border border-border-primary-light dark:border-border-primary-dark p-4 bg-bg-primary-light dark:bg-bg-secondary-dark">
@@ -134,7 +134,7 @@
     {{ with $publicationsData.publications }}
     <section class="mt-12 mb-14">
         <div class="flex justify-between items-end gap-4 mb-5 max-w-3xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold">Recent Publications</h2>
+            <h2 class="text-3xl md:text-4xl font-bold">Recent Publications</h2>
             <a href="{{ "publications/" | relLangURL }}" class="text-sm md:text-base text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200">
                 View all
             </a>
@@ -179,7 +179,7 @@
     {{ $highlightContain := eq $highlightFitMode "contain" }}
     <section class="mb-14">
         <div class="flex justify-between items-end gap-4 mb-5 max-w-3xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold">Highlighted Project</h2>
+            <h2 class="text-3xl md:text-4xl font-bold">Highlighted Project</h2>
             <a href="{{ "projects/" | relLangURL }}" class="text-sm md:text-base text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200">
                 View all
             </a>
@@ -211,7 +211,7 @@
     <!-- Tech Stack -->
     {{ with (index site.Data .Language.Lang "tech") }}
         <section class="mt-20 max-w-3xl mx-auto">
-            <h2 class="text-4xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
             <div class="tech-carousel">
                 <div class="carousel-container">
                     <div class="carousel-track carousel-track-left-to-right">
@@ -373,7 +373,7 @@
     {{ $contactAuthor := cond (and $contactAuthorData $contactAuthorData.author) $contactAuthorData.author site.Params }}
     {{ with $contactAuthor }}
     <section class="mt-20 mb-20">
-        <h2 class="text-4xl font-bold mb-6 max-w-3xl mx-auto">{{ T "contactTitle" | default "Contact" }}</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 max-w-3xl mx-auto">{{ T "contactTitle" | default "Contact" }}</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             {{ with .email }}
             <a href="mailto:{{ . }}" class="contact-card flex items-center gap-3 p-4 rounded-lg border border-border-primary-light dark:border-border-primary-dark bg-bg-primary-light dark:bg-bg-secondary-dark">
