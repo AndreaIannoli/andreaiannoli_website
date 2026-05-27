@@ -9,19 +9,14 @@ site.Params }} {{ $publicationsData := index site.Data .Language.Lang
     >
         {{ .Title }}
     </h1>
-    <div
-        class="mb-8 text-xl text-text-secondary-light dark:text-text-secondary-dark prose max-w-none"
-    >
-        {{ .Content }}
-    </div>
 
     <section
-        class="mb-10 p-6 rounded-lg border border-border-primary-light dark:border-border-primary-dark bg-bg-primary-light dark:bg-bg-secondary-dark"
+        class="flex justify-start items-center mb-10 p-4 rounded-lg border border-border-primary-light dark:border-border-primary-dark bg-bg-primary-light dark:bg-bg-secondary-dark"
     >
         <h2
-            class="text-2xl font-semibold mb-4 text-text-primary-light dark:text-text-primary-dark"
+            class="text-1xl mr-3 font-semibold text-text-primary-light dark:text-text-primary-dark"
         >
-            Research Profiles
+            Research Profiles:
         </h2>
         <div class="flex flex-wrap gap-3">
             {{ $orcid := "" }} {{ $scholar := "" }} {{ with $author }} {{ with
